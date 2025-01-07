@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
  * @Author: zi.yang
  * @Date: 2025-01-07 11:09:12
@@ -17,6 +19,7 @@ const cwd = process.cwd();
 const projectPath = path.join(cwd, projectName);
 const templatePath = path.join(__dirname, 'template-vue');
 
+console.log(projectPath, templatePath)
 // 创建项目目录
 if (!fs.existsSync(projectPath)) {
     fs.mkdirSync(projectPath);
