@@ -1,0 +1,15 @@
+{
+  "name": "create-zycode",
+  "version": "1.0.0",
+  "description": "A CLI tool to initialize template projects",
+  "main": "index.js",
+  "bin": {
+    "create-zycode": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "zi.yang",
+  "license": "MIT",
+  "dependencies": {}
+}
